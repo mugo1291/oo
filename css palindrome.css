@@ -1,0 +1,24 @@
+body{
+  background: linear-gradient(to right);
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  padding-top: 30px;
+  color: blue;
+}
+button {
+    background-color: brown;
+    color: chartreuse;
+}
+#result, #secretMessage {
+    margin-top: 10px;
+    font-size: 15px;
+    font-size: smaller;
+    font-weight: lighter; }
+    #secretMessage {
+        color: blueviolet;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    img{
+        width: 50px;
+        margin-top: 20px;
+    }

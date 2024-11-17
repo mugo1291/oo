@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="function validate.js"></script>
+    <link rel="stylesheet" href="css palindrome.css">
+    <title>Palindrome & Secret Message checker </title>
+</head>
+<body>
+     <h1>Palindrome & Secret Message checker </h1>
+     <form id="inputform" onsubmit= "return false">
+     Name 1: <input type= "text" id= "firstName" placeholder= "Martin">
+         <br>
+     Name 2: <input type= "text" id= "lastName"  placeholder= "Noru">
+     <br>
+     Zip : <input type= "text" id= "zipCode" placeholder= "85249">
+      <br>
+      checker : <input type= "text" id= "inputStrings" placeholder= "Top secret">
+       <input type="submit" onclick= "validate()"/>
+      </form> 
+       
+      
+      <div id= "result"></div>
+     <div id="secretMessage" style="display: none;"><h2>Here's the secret message: </h2>
+        <p>programming is the best</p></div>
+      
+     <img src="Downloads/palindrome logo.jpg"/>
+     <img src="Downloads/top secret icon.webp"/>
+     </div>
+
+
+    
+</body>
+</html>
